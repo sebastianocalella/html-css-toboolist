@@ -1,5 +1,14 @@
-main{
+body{
     background-color: #F6F8F9;
+}
+
+body > header{
+    background-color: white;
+    display: block;
+    padding: .5rem;
+}
+
+main{
     font-size: 1.5rem;
     margin: 3% 15% 2%;
 }
@@ -9,5 +18,15 @@ main{
     border: 1px solid lightgray;
     padding: .4rem;
     border-radius: .5rem;
+}
+
+.select{
+    color: white;
+    background-color: #47ADF1;
+}
+
+.unselect{
+    color: lightgray;
+    background-color: white;
 }
 
