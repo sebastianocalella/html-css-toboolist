@@ -1,3 +1,9 @@
+*{
+    margin: 0; 
+    padding: 0;
+    position: relative;
+}
+
 body{
     background-color: #d1d6d8;
 }
@@ -13,6 +19,7 @@ main{
     color: rgb(69, 65, 65);
     font-size: 1.2rem;
     margin: 3% 14% 2%;
+    border-radius: 1rem;
 }
 
 main > header{
@@ -21,7 +28,7 @@ main > header{
 }
 
 section{
-    padding: 1.5rem 3.5rem;
+    padding: .5rem 3.5rem;
 }
 
 .tool{
@@ -52,10 +59,10 @@ li{
 }
 
 .list_dot{
+    display: inline-block;
     border: 1px solid;
-    padding: .2rem;
-    margin-right: .5rem;
-    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
 }
 
 .done_element{
