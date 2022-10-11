@@ -10,13 +10,14 @@ body > header{
 
 main{
     background-color: white;
-    font-size: 1.5rem;
-    margin: 3% 15% 2%;
+    color: rgb(69, 65, 65);
+    font-size: 1.2rem;
+    margin: 3% 14% 2%;
 }
 
 main > header{
     border-bottom: 5px solid #d1d6d8;
-    padding: 2rem;
+    padding: 2rem 3.5rem;
 }
 
 section{
@@ -26,7 +27,7 @@ section{
 .tool{
     font-size: .9rem;
     border: 1px solid lightgray;
-    padding: .4rem;
+    padding: .55rem;
     border-radius: .5rem;
 }
 
@@ -47,12 +48,13 @@ section{
 }
 
 li{
-    margin: .5rem 1rem;
+    margin: 1.2rem 1rem;
 }
 
 .list_dot{
     border: 1px solid;
     padding: .2rem;
+    margin-right: .5rem;
     border-radius: 100%;
 }
 
