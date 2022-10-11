@@ -41,3 +41,17 @@ main{
 li{
     margin: .5rem 1rem;
 }
+
+.list_dot{
+    border: 1px solid;
+    padding: .2rem;
+    border-radius: 100%;
+}
+
+.done_element{
+    color: #65c080;
+}
+
+.undone_element{
+    color: #EA453B;
+}
