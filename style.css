@@ -32,3 +32,12 @@ main{
     background-color: white;
 }
 
+.todolist{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    margin: .5rem 1rem;
+}
