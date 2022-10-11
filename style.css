@@ -63,3 +63,34 @@ li{
 .undone_element{
     color: #EA453B;
 }
+
+.tag{
+    color: white;
+    font-size: .9rem;
+    padding: .4rem;
+    border-radius: .8rem;
+}
+
+.editorial{
+    background-color: #47ADF1;
+}
+
+.q1_goals{
+    background-color: #9C72E4;
+}
+
+.recruiting{
+    background-color: #64C0A9;
+}
+
+.mobile{
+    background-color: #F29E33;
+}
+
+.website{
+    background-color: #D863A1;
+}
+
+.sales{
+    background-color: #B0C926;
+}
