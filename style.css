@@ -1,7 +1,6 @@
 *{
     margin: 0; 
     padding: 0;
-    position: relative;
 }
 
 body{
@@ -55,14 +54,28 @@ section{
 }
 
 li{
-    margin: 1.2rem 1rem;
+    margin: 1.2rem 0;
+    position: relative;
+    padding-left: 2rem;
+    height: 1rem;
+    line-height: 1rem;
+}
+
+.sentence{
+    display: inline-block;
 }
 
 .list_dot{
+    font-size: .8rem;
     display: inline-block;
+    position: absolute;
+    left: 0;
     border: 1px solid;
     width: 1rem;
     height: 1rem;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 1rem;
 }
 
 .done_element{
